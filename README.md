@@ -1,1 +1,4 @@
-# SMS-spam
+ In order to identify what messages are spam, we need to translate text into numbers that can be understood by a machine. One method is TF-IDF which completely ignores unimportant words and tries to find important ones by looking at the context. Another is Bag of Words, which displays in the frequency of each word across all cases.
+Furthermore, we are focusing on Bigrams and Trigrams (or common two- or three-word phrases like "win prize" or "free entry"). Word Embeddings thusly accommodate us to the less challenging understanding of word meanings as well as their relationships.
+In the Message Length attribute, the different distances (for spam and normal messages) are calculated to the message in order to discover the length of the duplicated code. The version where the corresponding groups of numbers (for example, "!!!", "$$$", or phone numbers) occur is also recognized as an effective method.
+Similarly, the Stop word Ratio is used to see the count of words which are not keywords in the spam messages. Eventually, we can conduct a speech (Sentiment Analysis) to see whether it is emotional (anxiety or the enjoyment of the experience) 
